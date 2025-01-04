@@ -37,7 +37,5 @@ jobs:
 
       - name: Publish package to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          # No need to specify username or password when using trusted publishing
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
