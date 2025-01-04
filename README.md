@@ -1,6 +1,6 @@
 # bizcard-ai
 
-`bizcard-ai` is a Python package that extracts information from images of business cards using the OpenAI API. It processes an image file and returns a JSON object containing the extracted details.
+`bizcard-ai` is a Python package that extracts information from images of business cards using the OpenAI API. It processes an image file and returns a dict containing the extracted details.
 
 ## Features
 
